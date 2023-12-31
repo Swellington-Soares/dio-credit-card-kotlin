@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:h2:mem:credit_application_system_db
+    username: suel
+  h2:
+    console:
+      enabled: true
+      settings:
+        trace: true
+        web-allow-others: true
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
